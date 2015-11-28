@@ -3,3 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - It is an intermediate step before the repository. It packs things together when you use git add.
+
+git diff: Diff between the working directory and the staging area.
+git diff --staged: Diff between the staging area and the most recent commit.
+git reset --hard: Removes changes from the working directory and the staging area.
