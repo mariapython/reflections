@@ -7,6 +7,9 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 - Doing a git diff will show the diff between what is in the working directory and the staging area. If it corresponds to a logical change, I will commit it to the repository. Otherwise, I might discard some change with reset.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- When trying some experiments or something similar but not quite the same.
+
 git diff: Diff between the working directory and the staging area.
 git diff --staged: Diff between the staging area and the most recent commit.
 git reset --hard: Removes changes from the working directory and the staging area.
