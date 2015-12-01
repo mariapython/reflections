@@ -13,7 +13,15 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 - They help see parent / child relationships and what commits are or are not reachable.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- All the commits from both branches will be shown chronologically and conflicts will be resolved if possible.
+
 git diff: Diff between the working directory and the staging area.
 git diff --staged: Diff between the staging area and the most recent commit.
 git reset --hard: Removes changes from the working directory and the staging area.
 git checkout -b new_branch_name ( =git brannch new_branch_name + git checkout new_branch_name)
+git merge <target> <branch to merge to target>
+git show: diff between a commit and its parent (useful for merges, where the one below on git log is not really the parent)
+git branch -d <branch to be deleted> (commits from branch are not deleted, just the label, that is, the branch)
+
+De Juan: git pull= git fetch + git merge
