@@ -1,5 +1,6 @@
 
-
+When would you want to use a remote repository rather than keeping all your work local?
+- When there is more than one contributor.
 
 - Create a repository in GitHub: click on + and new respository, a link will be provided.)
 - Create a remote for local repo: git remote add origin <link>
