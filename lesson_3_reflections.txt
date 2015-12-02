@@ -1,0 +1,11 @@
+
+
+
+- Create a repository in GitHub: click on + and new respository, a link will be provided.)
+- Create a remote for local repo: git remote add origin <link>
+- Push to the remote: git push <remote to send to> <branch to push>
+
+Cache GitHub password
+https://help.github.com/articles/caching-your-github-password-in-git/
+
+Other student's reflections: https://github.com/Denyos/reflections
