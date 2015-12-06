@@ -8,6 +8,8 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 - Clone is a copy of all the directories and commit history either from a rrepository, either local or remote. Branch is the same as clone, but leaving athe branch where you clone from also intact in the repository. Fork is clone inside GitHub.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- Being in sync with it without having to merge those with our local changes.
 
 
 - Create a repository in GitHub: click on + and new respository, a link will be provided.)
@@ -23,6 +25,12 @@ https://help.github.com/articles/caching-your-github-password-in-git/
 Fork: clone a repository from GitHub to GitHub
 Branch: happens on a single repository
 git remote -v
+
+git pull origin master = git fetch origin + git merge master origin/master
+git log: local commits
+git log origin/master: commits on the remote
+get diff origin/master master: differences between local and remote
+* Watch video "updating local copies of remote branches"
 
 
 Other student's reflections: https://github.com/Denyos/reflections
