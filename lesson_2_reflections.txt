@@ -38,5 +38,3 @@ current master code
 >>>>>>> master
 
 After solving the conflicts and saving the final version, git status will show "both modified" meaning that it's been changed in both branches.
-
-De Juan: git pull= git fetch + git merge
