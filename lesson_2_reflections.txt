@@ -19,6 +19,7 @@ What is the result of merging two branches together? Why do we represent it in t
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 - It's great to do some automation, but only while the two versions can be merged correctly. Git can't always do that automatically.
 
+git init: Initializes a directory to be a repository
 git diff: Diff between the working directory and the staging area.
 git diff --staged: Diff between the staging area and the most recent commit.
 git reset --hard: Removes changes from the working directory and the staging area.

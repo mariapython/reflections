@@ -18,11 +18,11 @@ When would you want to make changes in a separate branch rather than directly in
 - If I am not sure of the changes and I'm just experimenting.
 
 - Create a repository in GitHub: click on + and new respository, a link will be provided.)
-- Create a remote for local repo: git remote add origin <link>
+- Create a remote for local repo: git remote add origin <https URL>
 - Push to the remote: git push <remote to send to> <branch to push>
-(git push origin master)
+(Ex: git push origin master)
 - Pull from the remote: git pull <remote to get from> <branch to pull>
-(git pull origin master)
+(Ex: git pull origin master)
 
 Cache GitHub password
 https://help.github.com/articles/caching-your-github-password-in-git/
@@ -30,6 +30,9 @@ https://help.github.com/articles/caching-your-github-password-in-git/
 Fork: clone a repository from GitHub to GitHub
 Branch: happens on a single repository
 git remote -v
+    $ git remote -v
+    origin  https://github.com/mariapython/reflections.git (fetch)
+    origin  https://github.com/mariapython/reflections.git (push)
 
 git pull origin master = git fetch origin + git merge master origin/master
 git log: local commits
@@ -38,5 +41,6 @@ get diff origin/master master: differences between local and remote
 * Watch video "updating local copies of remote branches"
 * Watch video "making a pull request"
 
+git hub projects: mathquill, ipython, bootstrap, jquery, atom
 
 Other student's reflections: https://github.com/Denyos/reflections
